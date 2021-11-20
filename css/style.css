@@ -2,31 +2,31 @@
     margin: 0 18% 120px;
 }
 
-.menu{
+.main__menu{
 width: 100%;
 display: flex;
 justify-content: space-between;
 padding: 32px 0;;
 }
 
-.menu__link {
+.main__link {
 text-decoration: none;
 font-family: 'Conv_Gilroy-Bold';
 }
 
-.menu__link_active {
+.main__link_active {
     color: #070707;
 }
 
-.menu__link_no-active {
+.main__link_no-active {
     color: #828282;
 }
 
-.line_gray {
+.main__line_gray {
     color: #828282;
     size: 1px;
 }
-.content {
+.main__content {
     height: 120px;
     display: flex;
     justify-content: space-between;
@@ -34,19 +34,19 @@ font-family: 'Conv_Gilroy-Bold';
     padding: 40px 0 30px;
 }
 
-.content__name {
+.main__name {
     font-family: 'Conv_Gilroy-Bold';
     font-size: 47px;
 }
 
-.content__info{
+.main__info{
     font-family: 'Conv_Gilroy-Medium';
     font-size: 18px;
     position: relative;
     bottom: -22px;
 }
 
-.content__lang {
+.main__lang {
     transform: rotate(-90deg);
     font-family: 'Conv_Gilroy-Bold';
     font-size: 16px;
@@ -54,11 +54,11 @@ font-family: 'Conv_Gilroy-Bold';
     bottom: -18px;
 }
 
-.content__lang_no-active {
+.main__lang_no-active {
     color: #828282;
 }
 
-.photo__image {
+.main__image {
     width: 100%;
 }
 
@@ -94,6 +94,69 @@ font-family: 'Conv_Gilroy-Bold';
 
 .about__subtitle {
     vertical-align: bottom;
+}
+.skills__title {
+    margin-top: 91px;
+}
+
+.skills__subtitle {
+    margin: 69px auto 87px;
+}
+.skills__row {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 250px 110px;
+}
+.skills__column {
+    text-align: center;
+}
+.item-skills__icon {
+    height: 90px;
+    width: 90px;
+    margin: 0 auto 24px;
+}
+.item-skills__icon_blue {
+    background-color:#0C0824;
+}
+.item-skills__icon_brown {
+    background-color: #423325;
+}
+.item-skills__icon_violet {
+    background-color: #442F55;
+}
+.item-skills__title {
+    font-family: 'Conv_Gilroy-Bold';
+    font-size: 14px;
+    color: #828282;
+}
+.item-skills__stars {
+    margin-top: 41px;
+}
+.portfolio {
+    background-color: #F6F6F6;
+}
+.portfolio__wrap{
+    margin: 0 250px;
+}
+.portfolio__title {
+    padding-top: 112px;
+}
+
+.portfolio__column {
+    margin: 47px auto 0;
+    padding-bottom: 96px;
+}
+
+.item-portfolio {
+    margin: 0 auto 99px;
+}
+
+
+.item-portfolio__link {
+    margin-top: 45px;
+}
+.item-portfolio__ref {
+    color:black; 
 }
 
 

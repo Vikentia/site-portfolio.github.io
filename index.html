@@ -14,25 +14,24 @@
 	<div class="container">
 		<div class="page">
 			<div class="main">
-				<div class="menu">
-					<div class="wrap"><a class="menu__link menu__link_active" href="#">Home</a></div>
-					<div class="wrap"><a class="menu__link menu__link_no-active" href="#">About me</a></div>
-					<div class="wrap"><a class="menu__link menu__link_no-active" href="#">Skills</a></div>
-					<div class="wrap"><a class="menu__link menu__link_no-active" href="#">Portfolio</a></div>
-					<div class="wrap"><a class="menu__link menu__link_no-active" href="#">Contacts</a></div>
+				<div class="main__menu">
+					<div class="wrap"><a class="main__link main__link_active" href="#">Home</a></div>
+					<div class="wrap"><a class="main__link main__link_no-active" href="#">About me</a></div>
+					<div class="wrap"><a class="main__link main__link_no-active" href="#">Skills</a></div>
+					<div class="wrap"><a class="main__link main__link_no-active" href="#">Portfolio</a></div>
+					<div class="wrap"><a class="main__link main__link_no-active" href="#">Contacts</a></div>
 				</div>
-				<div class="line">
-					<hr class="line_gray">
+				<div class="main__line">
+					<hr class="main__line_gray">
 				</div>
-				<div class="wrapper">
-					<div class="content">
-						<div class="content__name">Denis<br>Novik</div>
-						<div class="content__info">UX | UI designer<br>24 years old, Minsk</div>
-						<div class="content__lang">RU <span class="content__lang_no-active">| ENG</spanactive>
-						</div>
+				<div class="main__wrapper">
+					<div class="main__content">
+						<div class="main__name">Denis<br>Novik</div>
+						<div class="main__info">UX | UI designer<br>24 years old, Minsk</div>
+						<div class="main__lang"><span class="main__lang_no-active">RU</span> | ENG</div>
 					</div>
 				</div>
-				<div class="photo"><img class="photo__image" src="./img/photo.png" alt="photo"></div>
+				<div class="main__photo"><img class="main__image" src="./img/photo.png" alt="photo"></div>
 			</div>
 			<div class="about">
 				<div class="about__wrap">
@@ -49,23 +48,95 @@
 
 			</div>
 			<div class="skills">
-				<h1 class="title">Skills</h1>
-				<div class="subtitle">
-					<p class="subtitle__p">I work in such programs as</p>
+				<h1 class="skills__title title">Skills</h1>
+				<div class="skills__subtitle subtitle">
+					<p class="skills__p subtitle__p">I work in such programs as</p>
 				</div>
-				<div class="box">
-					<div class="box__icon">
-
+				<div class="skills__row">
+					<div class="skills__column">
+						<div class="item-skills">
+							<div class="item-skills__icon item-skills__icon_blue"><img src="./img/ps.png" alt="icon">
+							</div>
+							<div class="item-skills__title">Adobe<br>Photoshop</div>
+							<div class="item-skills__stars">
+								<img src="./img/Star-black.png" alt="icon">
+								<img src="./img/Star-black.png" alt="icon">
+								<img src="./img/Star-black.png" alt="icon">
+								<img src="./img/Star-black.png" alt="icon">
+								<img src="./img/Star-gray.png" alt="icon">
+							</div>
+						</div>
 					</div>
-					<div class="box__name"></div>
-					<div class="box__stars">
-						<div class="box__stars">
-
+					<div class="skills__column">
+						<div class="item-skills">
+							<div class="item-skills__icon item-skills__icon_brown"><img src="./img/ai.png" alt="icon">
+							</div>
+							<div class="item-skills__title">Adobe<br>Illustrator</div>
+							<div class="item-skills__stars">
+								<img src="./img/Star-black.png" alt="icon">
+								<img src="./img/Star-black.png" alt="icon">
+								<img src="./img/Star-black.png" alt="icon">
+								<img src="./img/Star-gray.png" alt="icon">
+								<img src="./img/Star-gray.png" alt="icon">
+							</div>
+						</div>
+					</div>
+					<div class="skills__column">
+						<div class="item-skills">
+							<div class="item-skills__icon item-skills__icon_violet"><img src="./img/ae.png" alt="icon">
+							</div>
+							<div class="item-skills__title">Adobe<br>After Effects</div>
+							<div class="item-skills__stars">
+								<img src="./img/Star-black.png" alt="icon">
+								<img src="./img/Star-black.png" alt="icon">
+								<img src="./img/Star-black.png" alt="icon">
+								<img src="./img/Star-black.png" alt="icon">
+								<img src="./img/Star-gray.png" alt="icon">
+							</div>
+						</div>
+					</div>
+					<div class="skills__column">
+						<div class="item-skills">
+							<div class="item-skills__icon"><img src="./img/figma.png" alt="icon"></div>
+							<div class="item-skills__title">Figma</div>
+							<div class="item-skills__stars">
+								<img src="./img/Star-black.png" alt="icon">
+								<img src="./img/Star-black.png" alt="icon">
+								<img src="./img/Star-black.png" alt="icon">
+								<img src="./img/Star-black.png" alt="icon">
+								<img src="./img/Star-gray.png" alt="icon">
+							</div>
 						</div>
 					</div>
 				</div>
 			</div>
+			<div class="portfolio">
+				<div class="portfolio__wrap">
+					<div class="portfolio__title title">Portfolio</div>
+					<div class="portfolio__column">
+						<div class="item-portfolio">
+							<div class="item-portfolio__photo"><img src="./img/fashion.jpg" alt="web"></div>
+							<div class="item-portfolio__link subtitle"><a class="item-portfolio__ref" href="#">Online
+									fashion store - Homepage</a></div>
+						</div>
+						<div class="item-portfolio">
+							<div class="item-portfolio__photo"><img src="./img/reebok_web.jpg" alt="web"></div>
+							<div class="item-portfolio__link subtitle"><a class="item-portfolio__ref" href="#">Reebok
+									Store - Concept</a></div>
+						</div>
+						<div class="item-portfolio">
+							<div class="item-portfolio__photo"><img src="./img/braun.jpg" alt="web"></div>
+							<div class="item-portfolio__link subtitle"><a class="item-portfolio__ref" href="#">Braun
+									Landing Page - Concept</a></div>
+						</div>
+					</div>
+				</div>
 
+			</div>
+			<div class="contacts">
+				<div class="contacts__title title">Contacts</div>
+				<div class="contacts__subtitle subtitle">I work in such programs as</div>
+			</div>
 </body>
 
 </html>
