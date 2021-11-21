@@ -1,8 +1,12 @@
+.page {
+    min-width: 1080px;
+}
+
 .main {
     margin: 0 18% 120px;
 }
 
-.main__menu{
+.main__menu {
 width: 100%;
 display: flex;
 justify-content: space-between;
@@ -39,7 +43,7 @@ font-family: 'Conv_Gilroy-Bold';
     font-size: 47px;
 }
 
-.main__info{
+.main__info {
     font-family: 'Conv_Gilroy-Medium';
     font-size: 18px;
     position: relative;
@@ -67,9 +71,11 @@ font-family: 'Conv_Gilroy-Bold';
     height: 506px;
     display:flex;
 }
+
 .about__title {
     margin: 0;
 }
+
 .about__p {
     padding-top: 7px;
 }
@@ -95,49 +101,58 @@ font-family: 'Conv_Gilroy-Bold';
 .about__subtitle {
     vertical-align: bottom;
 }
-.skills__title {
-    margin-top: 91px;
+
+.skills {
+    margin: 91px 0 110px;
 }
+
 
 .skills__subtitle {
     margin: 69px auto 87px;
 }
+
 .skills__row {
     display: flex;
     justify-content: space-between;
-    padding: 0px 250px 110px;
+    padding: 0px 250px 0px;
 }
+
 .skills__column {
     text-align: center;
 }
+
 .item-skills__icon {
     height: 90px;
     width: 90px;
     margin: 0 auto 24px;
 }
+
 .item-skills__icon_blue {
     background-color:#0C0824;
 }
+
 .item-skills__icon_brown {
     background-color: #423325;
 }
+
 .item-skills__icon_violet {
     background-color: #442F55;
 }
+
 .item-skills__title {
     font-family: 'Conv_Gilroy-Bold';
     font-size: 14px;
     color: #828282;
 }
+
 .item-skills__stars {
     margin-top: 41px;
 }
+
 .portfolio {
     background-color: #F6F6F6;
 }
-.portfolio__wrap{
-    margin: 0 250px;
-}
+
 .portfolio__title {
     padding-top: 112px;
 }
@@ -147,19 +162,69 @@ font-family: 'Conv_Gilroy-Bold';
     padding-bottom: 96px;
 }
 
-.item-portfolio {
-    margin: 0 auto 99px;
+.item-portfolio__photo {
+    text-align: center;
 }
 
+.item-portfolio {
+    margin: 0 17% 99px;
+}
 
 .item-portfolio__link {
     margin-top: 45px;
 }
+
 .item-portfolio__ref {
     color:black; 
 }
 
+.contacts {
+    height: 622px;
+}
 
+.contacts__wrap {
+    margin: 114px 35% 123px;
+}
+
+.contacts__title{
+    margin-bottom: 20px;
+}
+
+.contacts__subtitle {
+    margin-bottom: 30px;
+}
+
+.button {
+    background: black;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    font-family: 'Conv_Gilroy-Bold';
+    font-size: 18px;
+    padding: 13px 30px;
+    cursor: pointer;
+}
+
+.contacts__button {
+    margin-bottom: 86px;
+    text-align: center;
+}
+
+.contacts__socials {
+    margin-bottom: 86px;
+}
+
+.contacts__row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contacts__aside {
+    font-family: 'Conv_Gilroy-Medium';
+    font-size: 18px;
+    text-align: center;
+    color: #828282;
+}
 
 @font-face {
 	font-family: 'Conv_Gilroy-Bold';
